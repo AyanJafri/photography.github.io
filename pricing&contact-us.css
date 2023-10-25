@@ -1,0 +1,291 @@
+.heading{
+    text-align: center;
+    margin: 150px 505px 30px 505px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--nav-color);
+    font-size: 4em;
+    text-transform: uppercase;
+    font-family: 'Kodchasan', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px 60px 0 60px;
+    padding: 50px 0px;
+    /* border-bottom: 1px solid var(--nav-color); */
+}
+
+.container .box-1{
+    padding: 50px 80px 50px 80px;
+    border-radius: 10px;
+    color: var(--nav-color);
+    background: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+}
+
+.container .box-1:hover{
+    transform: translateY(9px);
+    box-shadow: none;
+    transition: 0.4s;
+}
+
+.container .color-1{
+    border: 2px solid #c0c0c0;
+    box-shadow: 3px 3px 30px rgba(192, 192, 192, 0.9), -3px -3px 30px rgba(192, 192, 192, 0.9);
+}
+
+.container .color-2{
+    border: 2px solid #f4d001;
+    box-shadow: 3px 3px 30px rgba(244, 208, 1, 0.5), -3px -3px 30px rgba(244, 208, 1, 0.5);
+}
+
+.container .color-3{
+    background: #b9f2ff;
+    color: #000;
+    border: 2px solid #b9f2ff;
+    box-shadow: 3px 3px 30px rgba(185, 242, 255, 0.5), -3px -3px 30px rgba(185, 242, 255, 0.5);
+}
+
+.container .box-1 .box-in-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+.container .box-1 .box-in-1 h2{
+    font-size: 3em;
+    margin-bottom: 15px;
+    font-family: 'Kodchasan', sans-serif;
+    line-height: 50px;
+}
+
+.container .box-1 .box-in-1 .style{
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'Kodchasan', sans-serif;
+}
+
+.container .box-1 .box-in-1 .style span{
+    font-size: 0.6em;
+    font-weight: 200;
+    font-family: 'Kodchasan', sans-serif;
+}
+
+.container .box-1 .box-in-1 .p{
+    font-weight: 700;
+    color: #7a7676;
+}
+
+.container .box-1 .box-in-2 h2{
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: 30px;
+    font-family: 'Kodchasan', sans-serif;
+}
+
+.container .box-1 .box-in-2 ul{
+    margin: 0 0 30px 40px;
+    color: #7a7676;
+}
+
+.container .box-1 a{
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 1.8em;
+    font-weight: 900;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.container .box-1 .btn-1{
+    color: #000;
+    background: #c0c0c0;
+    border: 2px solid #c0c0c0;
+    margin-top: 85px;
+}
+
+.container .box-1 .btn-1:hover{
+    color: #c0c0c0;
+    background: var(--bg-color);
+    transition: 0.5s;
+}
+
+.container .box-1 .btn-2{
+    color: #000;
+    background: #f4d001;
+    border: 2px solid #f4d001;
+}
+
+.container .box-1 .btn-2:hover{
+    color: #f4d001;
+    background: var(--bg-color);
+    transition: 0.5s;
+}
+
+.container .box-1 .btn-3{
+    color: #b9f2ff;
+    background: #000;
+    border: 2px solid #000;
+}
+
+.container .box-1 .btn-3:hover{
+    color: #000;
+    background: #b9f2ff;
+    transition: 0.5s;
+}
+
+.pricing-other{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px 50px 0 50px;
+    padding: 50px 0px;
+    border-bottom: 1px solid var(--nav-color);
+}
+
+.pricing-other h2{
+    font-size: 3.5em;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-family: 'Kodchasan', sans-serif;
+}
+
+.pricing-other p{
+    font-size: 1.1em;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0px 400px;
+    margin-bottom: 30px;
+    color: #7a7676;
+}
+
+.change{
+    margin: 70px 445px 100px 445px;
+}
+
+.contact-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.contact-cont .layer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.contact-cont .layer ul li{
+    list-style: none;
+    padding: 0 160px;
+}
+
+.contact-cont .layer ul .pad{
+    padding-bottom: 15px;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: 'Kodchasan', sans-serif;
+}
+
+.contact-cont .layer ul li a{
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--nav-color);
+}
+
+.contact-cont .layer ul .li-change{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-cont .layer ul .li-change img{
+    width: 25px;
+    filter: opacity(50%);
+}
+
+.contact-cont .layer ul .li-change img:hover {
+    filter: grayscale(0);
+}
+
+.contact-cont .inputs-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 69%;
+}
+
+.contact-cont .inputs-div form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 340px;
+}
+
+.contact-cont .inputs-div form .input{
+    width: 100%;
+    padding: 11px 0px 11px 8px;
+    border-radius: 19px;
+    margin-bottom: 19px;
+    background: var(--bg-color);
+    /* border: none; */
+    /* outline: none; */
+    border: 1px solid var(--nav-color);
+}
+
+.contact-cont .inputs-div form .input-4{
+    width: 100%;
+    padding: 13px 0px 40px 8px;
+    margin-top: 20px;
+}
+
+.contact-cont .inputs-div form a{
+    padding: 5px 20px 5px 20px;
+    border-radius: 8px;    
+    margin-bottom: 10px;
+    background: var(--bg-color);
+    /* border: none; */
+    /* outline: none; */
+    border: 2px solid var(--nav-color);
+    text-decoration: none;
+    color: var(--nav-color);
+    transition: 0.4s;
+}
+
+.contact-cont .inputs-div form a:hover{
+    color: var(--bg-color);
+    background: var(--nav-color);
+    transition: 0.4s;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.contact-cont p{
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 100;
+}
